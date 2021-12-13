@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TSLog",
+        "repositoryURL": "https://github.com/FvnctionHQ/ts-log",
+        "state": {
+          "branch": "master",
+          "revision": "7494c6f864cc7d6339f49b8849e1f693d4db72f0",
+          "version": null
+        }
+      },
+      {
+        "package": "TSUtils",
+        "repositoryURL": "https://github.com/linkov/ts-utils",
+        "state": {
+          "branch": "master",
+          "revision": "6c2c2b899f628af610de6fa3ce86a89c3a631309",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

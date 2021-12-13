@@ -16,6 +16,40 @@
 		296D99F82766763A00F0EC76 /* PatternBrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D99F72766763A00F0EC76 /* PatternBrushTests.swift */; };
 		296D9A022766763A00F0EC76 /* PatternBrushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A012766763A00F0EC76 /* PatternBrushUITests.swift */; };
 		296D9A042766763A00F0EC76 /* PatternBrushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A032766763A00F0EC76 /* PatternBrushUITestsLaunchTests.swift */; };
+		296D9A2727667DE000F0EC76 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1427667CBC00F0EC76 /* Pencil.swift */; };
+		296D9A2827667DE000F0EC76 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1227667CBC00F0EC76 /* Tool.swift */; };
+		296D9A2927667DE000F0EC76 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1127667CBC00F0EC76 /* Ellipse.swift */; };
+		296D9A2A27667DE000F0EC76 /* Eraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1327667CBC00F0EC76 /* Eraser.swift */; };
+		296D9A2B27667DE000F0EC76 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1527667CBC00F0EC76 /* Line.swift */; };
+		296D9A2C27667DE000F0EC76 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1627667CBC00F0EC76 /* Rectangle.swift */; };
+		296D9A2D27667DE000F0EC76 /* Brush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1727667CBC00F0EC76 /* Brush.swift */; };
+		296D9A2E27667DE700F0EC76 /* Bezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1A27667DBE00F0EC76 /* Bezier.swift */; };
+		296D9A2F27667DE700F0EC76 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1927667DBE00F0EC76 /* Element.swift */; };
+		296D9A3027667DE700F0EC76 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1B27667DBE00F0EC76 /* Vertex.swift */; };
+		296D9A3127667DEE00F0EC76 /* Canvas+Metal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2127667DBE00F0EC76 /* Canvas+Metal.swift */; };
+		296D9A3227667DEE00F0EC76 /* Element+Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2327667DBE00F0EC76 /* Element+Shapes.swift */; };
+		296D9A3327667DEE00F0EC76 /* MTLTexture+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1F27667DBE00F0EC76 /* MTLTexture+Image.swift */; };
+		296D9A3427667DEE00F0EC76 /* Canvas+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2527667DBE00F0EC76 /* Canvas+Data.swift */; };
+		296D9A3527667DEE00F0EC76 /* Canvas+Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2627667DBE00F0EC76 /* Canvas+Layers.swift */; };
+		296D9A3627667DEE00F0EC76 /* UITouch+Metal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1E27667DBE00F0EC76 /* UITouch+Metal.swift */; };
+		296D9A3727667DEE00F0EC76 /* Canvas+Touch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A1D27667DBE00F0EC76 /* Canvas+Touch.swift */; };
+		296D9A3827667DEE00F0EC76 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2427667DBE00F0EC76 /* CGPoint+Extensions.swift */; };
+		296D9A3927667DEE00F0EC76 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2027667DBE00F0EC76 /* UIImage+Extensions.swift */; };
+		296D9A3A27667DEE00F0EC76 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A2227667DBE00F0EC76 /* UIColor+RGB.swift */; };
+		296D9A4127667E3200F0EC76 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A3B27667E3200F0EC76 /* Events.swift */; };
+		296D9A4227667E3200F0EC76 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A3D27667E3200F0EC76 /* Layer.swift */; };
+		296D9A4327667E3200F0EC76 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A4027667E3200F0EC76 /* Shader.metal */; };
+		296D9A4427667E3200F0EC76 /* CodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A3E27667E3200F0EC76 /* CodingKeys.swift */; };
+		296D9A4527667E3200F0EC76 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A3C27667E3200F0EC76 /* UndoManager.swift */; };
+		296D9A4627667E3200F0EC76 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A3F27667E3200F0EC76 /* Canvas.swift */; };
+		296D9A4C2766969C00F0EC76 /* TSLog in Frameworks */ = {isa = PBXBuildFile; productRef = 296D9A4B2766969C00F0EC76 /* TSLog */; };
+		296D9A4F27669D0000F0EC76 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 296D9A4D27669CFA00F0EC76 /* Splash.png */; };
+		296D9A5027669D0000F0EC76 /* Smudge.png in Resources */ = {isa = PBXBuildFile; fileRef = 296D9A4E27669CFA00F0EC76 /* Smudge.png */; };
+		296D9A522766A54700F0EC76 /* GridBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A512766A54700F0EC76 /* GridBrush.swift */; };
+		296D9A5A2766CB2C00F0EC76 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A582766CB2900F0EC76 /* ArrayTableViewController.swift */; };
+		296D9A5B2766CB2C00F0EC76 /* SymmetrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A592766CB2900F0EC76 /* SymmetrixView.swift */; };
+		296D9A5C2766CB2C00F0EC76 /* SymmetrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D9A572766CB2900F0EC76 /* SymmetrixViewController.swift */; };
+		296D9A622766D5B100F0EC76 /* TSUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 296D9A612766D5B100F0EC76 /* TSUtils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +83,38 @@
 		296D99FD2766763A00F0EC76 /* PatternBrushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternBrushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296D9A012766763A00F0EC76 /* PatternBrushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternBrushUITests.swift; sourceTree = "<group>"; };
 		296D9A032766763A00F0EC76 /* PatternBrushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternBrushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		296D9A1127667CBC00F0EC76 /* Ellipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		296D9A1227667CBC00F0EC76 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		296D9A1327667CBC00F0EC76 /* Eraser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eraser.swift; sourceTree = "<group>"; };
+		296D9A1427667CBC00F0EC76 /* Pencil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		296D9A1527667CBC00F0EC76 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		296D9A1627667CBC00F0EC76 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		296D9A1727667CBC00F0EC76 /* Brush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brush.swift; sourceTree = "<group>"; };
+		296D9A1927667DBE00F0EC76 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		296D9A1A27667DBE00F0EC76 /* Bezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bezier.swift; sourceTree = "<group>"; };
+		296D9A1B27667DBE00F0EC76 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		296D9A1D27667DBE00F0EC76 /* Canvas+Touch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+Touch.swift"; sourceTree = "<group>"; };
+		296D9A1E27667DBE00F0EC76 /* UITouch+Metal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITouch+Metal.swift"; sourceTree = "<group>"; };
+		296D9A1F27667DBE00F0EC76 /* MTLTexture+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MTLTexture+Image.swift"; sourceTree = "<group>"; };
+		296D9A2027667DBE00F0EC76 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		296D9A2127667DBE00F0EC76 /* Canvas+Metal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+Metal.swift"; sourceTree = "<group>"; };
+		296D9A2227667DBE00F0EC76 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		296D9A2327667DBE00F0EC76 /* Element+Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Element+Shapes.swift"; sourceTree = "<group>"; };
+		296D9A2427667DBE00F0EC76 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		296D9A2527667DBE00F0EC76 /* Canvas+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+Data.swift"; sourceTree = "<group>"; };
+		296D9A2627667DBE00F0EC76 /* Canvas+Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Canvas+Layers.swift"; sourceTree = "<group>"; };
+		296D9A3B27667E3200F0EC76 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		296D9A3C27667E3200F0EC76 /* UndoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoManager.swift; sourceTree = "<group>"; };
+		296D9A3D27667E3200F0EC76 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		296D9A3E27667E3200F0EC76 /* CodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingKeys.swift; sourceTree = "<group>"; };
+		296D9A3F27667E3200F0EC76 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		296D9A4027667E3200F0EC76 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		296D9A4D27669CFA00F0EC76 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		296D9A4E27669CFA00F0EC76 /* Smudge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smudge.png; sourceTree = "<group>"; };
+		296D9A512766A54700F0EC76 /* GridBrush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBrush.swift; sourceTree = "<group>"; };
+		296D9A572766CB2900F0EC76 /* SymmetrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetrixViewController.swift; sourceTree = "<group>"; };
+		296D9A582766CB2900F0EC76 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
+		296D9A592766CB2900F0EC76 /* SymmetrixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetrixView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296D9A4C2766969C00F0EC76 /* TSLog in Frameworks */,
+				296D9A622766D5B100F0EC76 /* TSUtils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +167,18 @@
 		296D99DF2766763800F0EC76 /* PatternBrush */ = {
 			isa = PBXGroup;
 			children = (
+				296D9A4E27669CFA00F0EC76 /* Smudge.png */,
+				296D9A4D27669CFA00F0EC76 /* Splash.png */,
+				296D9A562766CB1900F0EC76 /* Symetry */,
+				296D9A3F27667E3200F0EC76 /* Canvas.swift */,
+				296D9A3E27667E3200F0EC76 /* CodingKeys.swift */,
+				296D9A3B27667E3200F0EC76 /* Events.swift */,
+				296D9A3D27667E3200F0EC76 /* Layer.swift */,
+				296D9A4027667E3200F0EC76 /* Shader.metal */,
+				296D9A3C27667E3200F0EC76 /* UndoManager.swift */,
+				296D9A1C27667DBE00F0EC76 /* Extensions */,
+				296D9A1827667DBE00F0EC76 /* Shapes */,
+				296D9A1027667CBC00F0EC76 /* Tools */,
 				296D99E02766763800F0EC76 /* AppDelegate.swift */,
 				296D99E22766763800F0EC76 /* SceneDelegate.swift */,
 				296D99E42766763800F0EC76 /* ViewController.swift */,
@@ -127,6 +207,58 @@
 			path = PatternBrushUITests;
 			sourceTree = "<group>";
 		};
+		296D9A1027667CBC00F0EC76 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				296D9A1127667CBC00F0EC76 /* Ellipse.swift */,
+				296D9A1227667CBC00F0EC76 /* Tool.swift */,
+				296D9A1327667CBC00F0EC76 /* Eraser.swift */,
+				296D9A1427667CBC00F0EC76 /* Pencil.swift */,
+				296D9A1527667CBC00F0EC76 /* Line.swift */,
+				296D9A1627667CBC00F0EC76 /* Rectangle.swift */,
+				296D9A1727667CBC00F0EC76 /* Brush.swift */,
+				296D9A512766A54700F0EC76 /* GridBrush.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		296D9A1827667DBE00F0EC76 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				296D9A1927667DBE00F0EC76 /* Element.swift */,
+				296D9A1A27667DBE00F0EC76 /* Bezier.swift */,
+				296D9A1B27667DBE00F0EC76 /* Vertex.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		296D9A1C27667DBE00F0EC76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				296D9A1D27667DBE00F0EC76 /* Canvas+Touch.swift */,
+				296D9A1E27667DBE00F0EC76 /* UITouch+Metal.swift */,
+				296D9A1F27667DBE00F0EC76 /* MTLTexture+Image.swift */,
+				296D9A2027667DBE00F0EC76 /* UIImage+Extensions.swift */,
+				296D9A2127667DBE00F0EC76 /* Canvas+Metal.swift */,
+				296D9A2227667DBE00F0EC76 /* UIColor+RGB.swift */,
+				296D9A2327667DBE00F0EC76 /* Element+Shapes.swift */,
+				296D9A2427667DBE00F0EC76 /* CGPoint+Extensions.swift */,
+				296D9A2527667DBE00F0EC76 /* Canvas+Data.swift */,
+				296D9A2627667DBE00F0EC76 /* Canvas+Layers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		296D9A562766CB1900F0EC76 /* Symetry */ = {
+			isa = PBXGroup;
+			children = (
+				296D9A582766CB2900F0EC76 /* ArrayTableViewController.swift */,
+				296D9A592766CB2900F0EC76 /* SymmetrixView.swift */,
+				296D9A572766CB2900F0EC76 /* SymmetrixViewController.swift */,
+			);
+			path = Symetry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +275,10 @@
 			dependencies = (
 			);
 			name = PatternBrush;
+			packageProductDependencies = (
+				296D9A4B2766969C00F0EC76 /* TSLog */,
+				296D9A612766D5B100F0EC76 /* TSUtils */,
+			);
 			productName = PatternBrush;
 			productReference = 296D99DD2766763800F0EC76 /* PatternBrush.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +351,10 @@
 				Base,
 			);
 			mainGroup = 296D99D42766763800F0EC76;
+			packageReferences = (
+				296D9A4A2766969C00F0EC76 /* XCRemoteSwiftPackageReference "ts-log" */,
+				296D9A602766D5B100F0EC76 /* XCRemoteSwiftPackageReference "ts-utils" */,
+			);
 			productRefGroup = 296D99DE2766763800F0EC76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +371,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296D9A4F27669D0000F0EC76 /* Splash.png in Resources */,
+				296D9A5027669D0000F0EC76 /* Smudge.png in Resources */,
 				296D99ED2766763A00F0EC76 /* LaunchScreen.storyboard in Resources */,
 				296D99EA2766763A00F0EC76 /* Assets.xcassets in Resources */,
 				296D99E82766763800F0EC76 /* Main.storyboard in Resources */,
@@ -258,8 +400,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296D9A4627667E3200F0EC76 /* Canvas.swift in Sources */,
+				296D9A5C2766CB2C00F0EC76 /* SymmetrixViewController.swift in Sources */,
+				296D9A4327667E3200F0EC76 /* Shader.metal in Sources */,
+				296D9A2927667DE000F0EC76 /* Ellipse.swift in Sources */,
 				296D99E52766763800F0EC76 /* ViewController.swift in Sources */,
+				296D9A2F27667DE700F0EC76 /* Element.swift in Sources */,
+				296D9A3527667DEE00F0EC76 /* Canvas+Layers.swift in Sources */,
+				296D9A2D27667DE000F0EC76 /* Brush.swift in Sources */,
+				296D9A3A27667DEE00F0EC76 /* UIColor+RGB.swift in Sources */,
+				296D9A2A27667DE000F0EC76 /* Eraser.swift in Sources */,
+				296D9A3427667DEE00F0EC76 /* Canvas+Data.swift in Sources */,
+				296D9A4527667E3200F0EC76 /* UndoManager.swift in Sources */,
+				296D9A3827667DEE00F0EC76 /* CGPoint+Extensions.swift in Sources */,
+				296D9A3727667DEE00F0EC76 /* Canvas+Touch.swift in Sources */,
+				296D9A4427667E3200F0EC76 /* CodingKeys.swift in Sources */,
+				296D9A3227667DEE00F0EC76 /* Element+Shapes.swift in Sources */,
+				296D9A3627667DEE00F0EC76 /* UITouch+Metal.swift in Sources */,
+				296D9A522766A54700F0EC76 /* GridBrush.swift in Sources */,
+				296D9A4127667E3200F0EC76 /* Events.swift in Sources */,
+				296D9A2C27667DE000F0EC76 /* Rectangle.swift in Sources */,
 				296D99E12766763800F0EC76 /* AppDelegate.swift in Sources */,
+				296D9A5A2766CB2C00F0EC76 /* ArrayTableViewController.swift in Sources */,
+				296D9A3027667DE700F0EC76 /* Vertex.swift in Sources */,
+				296D9A2E27667DE700F0EC76 /* Bezier.swift in Sources */,
+				296D9A4227667E3200F0EC76 /* Layer.swift in Sources */,
+				296D9A3927667DEE00F0EC76 /* UIImage+Extensions.swift in Sources */,
+				296D9A2727667DE000F0EC76 /* Pencil.swift in Sources */,
+				296D9A2B27667DE000F0EC76 /* Line.swift in Sources */,
+				296D9A5B2766CB2C00F0EC76 /* SymmetrixView.swift in Sources */,
+				296D9A3127667DEE00F0EC76 /* Canvas+Metal.swift in Sources */,
+				296D9A3327667DEE00F0EC76 /* MTLTexture+Image.swift in Sources */,
+				296D9A2827667DE000F0EC76 /* Tool.swift in Sources */,
 				296D99E32766763800F0EC76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,10 +614,12 @@
 				DEVELOPMENT_TEAM = 43R88X5B35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PatternBrush/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rabbit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +630,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -470,10 +644,12 @@
 				DEVELOPMENT_TEAM = 43R88X5B35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PatternBrush/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rabbit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +660,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -624,6 +800,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		296D9A4A2766969C00F0EC76 /* XCRemoteSwiftPackageReference "ts-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FvnctionHQ/ts-log";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		296D9A602766D5B100F0EC76 /* XCRemoteSwiftPackageReference "ts-utils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/linkov/ts-utils";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		296D9A4B2766969C00F0EC76 /* TSLog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 296D9A4A2766969C00F0EC76 /* XCRemoteSwiftPackageReference "ts-log" */;
+			productName = TSLog;
+		};
+		296D9A612766D5B100F0EC76 /* TSUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 296D9A602766D5B100F0EC76 /* XCRemoteSwiftPackageReference "ts-utils" */;
+			productName = TSUtils;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 296D99D52766763800F0EC76 /* Project object */;
 }
